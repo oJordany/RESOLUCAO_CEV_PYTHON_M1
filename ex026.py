@@ -1,0 +1,6 @@
+print('{:=^60}'.format('DESAFIO 026'))
+frase = str(input('Escreva uma frase: ')).upper().strip()
+print('A letra "a" aparece {} vezes nessa frase'.format(frase.count('A')))
+print('A primeira letra "a" aparece na posição {}'.format(frase.find('A') + 1))
+print('A última letra "a" aparece na posição {}'.format(frase.rfind('A') + 1))
+print('='*60)

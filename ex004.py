@@ -1,0 +1,15 @@
+c = input('digite algo:')
+print('o tipo primitivo desse valor é {}'.format(type(c)))
+print('é alfanumérico? {}'.format(c.isalnum()))
+# as duas estruturas de print acima são apenas para exercitar o ".format"
+# dá para usar elas em todo o resto
+print('é numérico?', c.isnumeric())
+print('é ascii?', c.isascii())
+print('é um dígito?', c.isdigit())
+print('é decimal?', c.isdecimal())
+print('só tem espaços?', c.isspace())
+print('está maiúsculo?', c.isupper())
+print('é um identificador?', c.isidentifier())
+print('pode ser impresso?', c.isprintable())
+print('está capitalizada?', c.istitle())
+print('está minúsculo?', c.islower())

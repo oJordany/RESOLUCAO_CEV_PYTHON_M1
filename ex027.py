@@ -1,0 +1,5 @@
+print('{:=^60}'.format('DESAFIO 027'))
+nome = str(input('insira o seu nome completo: ')).upper().strip()
+print('primeiro nome: {}'.format(nome.split()[0]))
+print('último nome: {}'.format(nome.split()[len(nome.split()) - 1]))
+print('='*60)
